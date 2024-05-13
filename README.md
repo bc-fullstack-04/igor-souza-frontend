@@ -8,8 +8,8 @@ Em seguida, instale as dependências do projeto executando o seguinte comando na
 
 Para subir a aplicação, execute, na pasta raíz do projeto, os seguintes comandos: <br>
 
-1 - docker compose up -d
-2 - npm run dev <br>
+1 - docker compose up -d <br>
+2 - npm run dev
 
 Depois de realizar todos os passos, a aplicação estará disponível em http://localhost:5173.
 
