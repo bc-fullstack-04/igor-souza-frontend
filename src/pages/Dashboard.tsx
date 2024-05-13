@@ -114,7 +114,7 @@ export default function Dashboard() {
             />
           </div>
 
-          <div className="w-[90%] mt-10 mx-auto max-w-screen-[1180px] font-lato text-[#FCFCFC]">
+          <div className="px-[5%] mt-10 mx-auto max-w-screen-[1180px] font-lato text-[#FCFCFC] bg-[#19181F]">
             {showTrends ? (
               <>
                 <h1 className="mb-6 font-bold text-3xl md:text-[40px]">
