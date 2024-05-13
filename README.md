@@ -6,9 +6,11 @@ Baixe os arquivos do repositório ou execute o comando "git clone https://github
 
 Em seguida, instale as dependências do projeto executando o seguinte comando na pasta raíz do projeto: npm i <br>
 
-Para subir a aplicação, execute, na pasta raíz do projeto, os seguintes comandos (em dois terminais diferentes): <br>
+Para subir a aplicação, execute, na pasta raíz do projeto, os seguintes comandos: <br>
 
-1 - npm run dev <br> 
-2 - docker compose up
+1 - docker compose up -d
+2 - npm run dev <br>
+
+Depois de realizar todos os passos, a aplicação estará disponível em http://localhost:5173.
 
 OBS.: Para evitar funcionamento incorreto, garanta que o item "@Auth.Data" não exista no localStorage da aplicação antes de começar a utilizá-la.
